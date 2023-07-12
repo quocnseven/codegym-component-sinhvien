@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Sinhvien from './Components/sinhvien';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Sinhvien id="1" name="QuocNguyen" age="26" address="TayNinh" /> */}
+    <App></App>
   </React.StrictMode>
 );
 
